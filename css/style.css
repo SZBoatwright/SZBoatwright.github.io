@@ -1,0 +1,56 @@
+body {
+  font-family: Muli;
+  background: rgb(187, 194, 200);
+}
+
+img {
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+h1 {
+  margin-left: 73px;
+}
+
+.header {
+  float: left;
+}
+
+.header p {
+  margin-left: 103px;
+}
+
+.header .bio {
+  font-size: 1.5em;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 370px;
+  text-align: justify;
+}
+
+.work {
+  width: 1000px;
+  height: 100vh;
+  padding-left: 150px;
+  padding-top: 50px;
+  float: left;
+  background: white;
+}
+
+.work h2 {
+  padding-top: 150px;
+}
+
+.work a {
+  color: green;
+/*   text-decoration: none; */
+  margin-right: 50px;
+}
+
+.colorBlock {
+  background: rgb(187, 194, 200);
+  float: right;
+  width: 720px;
+  height: 100%;
+}
