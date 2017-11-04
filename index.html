@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Personal Website</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Zach Boatwright</title>
-  <link rel="stylesheet" href="index.css">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
+  <!-- FontAwesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
   
   
       <link rel="stylesheet" href="css/style.css">
@@ -17,32 +17,48 @@
 </head>
 
 <body>
-  <!-- Header -->
-<div class="header">
-  <img src="https://lh3.googleusercontent.com/1jKGQQywOG7XnOeoAMyrJ_WtFGajKmppWWULJ90qTHoSyPkVdM3YbDb_hEEACX2E2RWlggZEc-YWOpB_6z5aBmiN2YYNrzodnikWcSAU7nLW_UglJwS87paaf-uk5neFVC6zIoUncel7dlQz_237lGvQ_j0Q4yeoySRbzackS0aLYNlg8kiGblbtgjux9uUP_vdIvgSvLth5WzCSMsWcQXFQY6bXtFnKc783faAqc1TNDvJwaTjpuuXSpgJLEfA1Bzr03sD6u8Um6i5tlgm3B2sb8kgKz_BZSqBqtvIA7TFAYTz8oI9e-zmekz5MFwg59LhUK3ZRh9M5PYloy3aQxql15rTAGm91KE2tQsv8rxKFmla4OcDvmtX7RbRGer49zTGtPcUz18uGbyKfzX_RHasCNysA6W8yh2WBJXUcGQefbcP5Qm5e3QBuIUuvuU0gyv6LsaNpF3zsYI6bQZQmoRAZm-YtIbP4jhHc_GnQ-56M5OS3ylchjY9ZgDt3KGviDpR0Fx7glwn4JqR73GXPTUDCM9sNrh0gKp15AV9jNZ1rxhAfUyXuF-FepTrw3h4UEp_G2en3u3sKHf5gssNNRPUbNYSsHVbtxGszk1bU3bo=s255-no">
-  <h1>Zach Boatwright</h1>
-  <p>Front-End Web Developer</p>
+  <div class="header jumbotron">
+  <div class="row">
+    <div class="col-sm-12 col-md-2">
+      <img class="header__img" src="https://lh3.googleusercontent.com/1jKGQQywOG7XnOeoAMyrJ_WtFGajKmppWWULJ90qTHoSyPkVdM3YbDb_hEEACX2E2RWlggZEc-YWOpB_6z5aBmiN2YYNrzodnikWcSAU7nLW_UglJwS87paaf-uk5neFVC6zIoUncel7dlQz_237lGvQ_j0Q4yeoySRbzackS0aLYNlg8kiGblbtgjux9uUP_vdIvgSvLth5WzCSMsWcQXFQY6bXtFnKc783faAqc1TNDvJwaTjpuuXSpgJLEfA1Bzr03sD6u8Um6i5tlgm3B2sb8kgKz_BZSqBqtvIA7TFAYTz8oI9e-zmekz5MFwg59LhUK3ZRh9M5PYloy3aQxql15rTAGm91KE2tQsv8rxKFmla4OcDvmtX7RbRGer49zTGtPcUz18uGbyKfzX_RHasCNysA6W8yh2WBJXUcGQefbcP5Qm5e3QBuIUuvuU0gyv6LsaNpF3zsYI6bQZQmoRAZm-YtIbP4jhHc_GnQ-56M5OS3ylchjY9ZgDt3KGviDpR0Fx7glwn4JqR73GXPTUDCM9sNrh0gKp15AV9jNZ1rxhAfUyXuF-FepTrw3h4UEp_G2en3u3sKHf5gssNNRPUbNYSsHVbtxGszk1bU3bo=s255-no"
+        alt="Photo of me.">
+    </div>
 
-  <!-- Bio -->
-  <p class="bio">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate itaque vel consequatur sed quibusdam tempore reprehenderit, quisquam dolor harum, excepturi culpa. Aliquid deserunt tenetur aperiam temporibus nemo repellat facere saepe.
-  </p>
+    <div class="col-sm-12 col-xl-3">
+      <h1 class="header__name">Zach<br>Boatwright</h1>
+    </div>
+
+    <div class="header__social col-sm-12 col-xl-3">
+      <div class="row">
+      <a class="header__social__link col-xs-6 col-md-12" href="https://github.com/SZBoatwright"><i class="fa fa-github" aria-hidden="true"></i></a>
+      
+      <a class="header__social__link col-xs-6 col-md-12" href="" class="header__social"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        </div>
+      
+    </div>
+
+    <div class="header__about col-sm-12">
+      <p>Hi, I'm Zach! I'm a recent Conservation Biology graduate who has developed an interest in web developement. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper aliquet enim vitae euismod. Donec volutpat ullamcorper erat
+        imperdiet pellentesque. Cras non sodales sem. Pellentesque at scelerisque dolor, in mattis lacus. Nunc facilisis magna quis tellus elementum, ac lobortis enim sagittis. Proin justo nibh, venenatis a nibh eu, lacinia volutpat felis. Duis convallis
+        tortor metus, at luctus ipsum ullamcorper id.</p>
+    </div>
+  </div>
 </div>
 
-<!-- My work and Experience -->
-<div class="work">
-  <h2>My Work</h2>
-  <p>Here are some things I have been working on:</p>
-  <a href="https://codepen.io/SZBoatwright/pen/LOVMwq">Startup Website</a>
-  <a href="https://codepen.io/SZBoatwright/pen/oogOWQ">To-Do List</a>
-  <a href="https://codepen.io/SZBoatwright/pen/jaEJpO">Simple Nav Bar</a>
-
-  <h2>Skillset</h2>
-  <p>This is where I will put skills that I have aquired</p>
+<div class="projects">
+  <h2>Current Projects</h2>
+  <a href="https://codepen.io/SZBoatwright/pen/LOVMwq" class="Projects_project">Mock Startup Landing Page</a>
+  <a href="https://codepen.io/SZBoatwright/pen/oogOWQ" class="projects__project">To-Do List</a>
+  <a href="https://codepen.io/SZBoatwright/pen/jaEJpO" class="projects__project">Simple Navbar</a>
 </div>
 
-<div class="colorBlock">
-  <p></p>
+<div class="skills">
+  <h2>Skills</h2>
+  <p class="skills__skill">HTML: intermediate</p>
+  <p class="skills__skill">CSS: beginner</p>
+  <p class="skills__skill">Bootstrap: beginner</p>
+  <p class="skills__skill">Git: beginner</p>
+  <p class="skills__skill">Java: beginner</p>
 </div>
   
   
