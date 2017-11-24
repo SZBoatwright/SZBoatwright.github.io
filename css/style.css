@@ -47,6 +47,10 @@ body {
   text-shadow: 1px 1px rgba(35,35,35,.5);
 }
 
+.header__about p {
+  color: #f7f7f7; 
+}
+
 .projects {
   margin-top: 50px;
   margin-left: 50px;
